@@ -1,0 +1,1 @@
+# The_Arts_Vibrancy_Index
