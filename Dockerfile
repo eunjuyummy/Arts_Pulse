@@ -1,21 +1,15 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get intall -y \
-build-essential \ git \ curl \ curl \ wget \ nano \ && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y \
+    build-essential git curl wget nano \
+    libcurl4-gnutls-dev libssl-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir -p /build
 WORKDIR /build
 
-#COPY . .
-#RUN go mod tidy && go mod vendor
-#RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o bin/server ./cmd/server
-
-#RUN mkdir -p /dist
-#WORKDIR /dist
-#RUN cp /build/bin/server ./server
-
-#COPY --chown=0:0 --from=builder /dist /app/
 EXPOSE 8889
 
-#ENTRYPOINT ["/app/server"]
-#CMD ["-port", "9110"]
+ENV JUPYTER_GITHUB_TOKEN=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
+
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8889", "--allow-root"]
