@@ -15,7 +15,7 @@ WORKDIR /build
 #RUN cp /build/bin/server ./server
 
 #COPY --chown=0:0 --from=builder /dist /app/
-EXPOSE 8888
+EXPOSE 8889
 
 #ENTRYPOINT ["/app/server"]
 #CMD ["-port", "9110"]
