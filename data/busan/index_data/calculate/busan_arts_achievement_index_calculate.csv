@@ -1,4 +1,4 @@
-﻿구,Average_satisfaction,Sum_of_willingness_to_watch,Satisfaction_intention_arts_education,Leisure_satisfaction,Happiness_level,Quality_of_life,Performance_market_revenue,Art_market_revenue,Cultural_exchanges
+﻿구,avg_satisfaction,intent_to_watch,edu_intent,sat_leisure,happiness,life,perf_revenue,art_revenue,global_exchange
 강서구,5.835556,12.2556,390,0.29040178573301,0.3303336102724,0.47992773964924,493266,5946,9.03
 금정구,5.835556,12.2556,390,0.090373644845825,0.4617441015014,0.53685033085143,493266,5946,9.03
 기장군,5.835556,12.2556,390,0.52106971369305,0.47378363863649,0.43742672562172,493266,5946,9.03
