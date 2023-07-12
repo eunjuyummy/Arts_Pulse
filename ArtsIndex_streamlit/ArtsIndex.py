@@ -14,8 +14,8 @@ def set_page_config():
     )
 set_page_config()
 
-busan_df = pd.read_csv('data/busan/the_final_data/Busan_arts_index.csv')
-seoul_df = pd.read_csv('data/seoul/the_final_data/Seoul_arts_index.csv')
+busan_df = pd.read_csv('data/busan/the_final_index/Busan_arts_index.csv')
+seoul_df = pd.read_csv('data/seoul/the_final_index/Seoul_arts_index.csv')
 filename_geodata = 'hangjeongdong_merge_last.geojson'
 admin_gdf = gpd.read_file(filename_geodata)
 
