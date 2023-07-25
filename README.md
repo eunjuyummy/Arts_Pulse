@@ -13,7 +13,7 @@
 무엇보다, 이 프로젝트는 오픈소스(Open-source)로 전면 개방하여 누구나 참여하고 수정하는 생태계를 구축합니다. 
 
 ## Demonstration
-스크린샷 1
+<img width="1280" alt="스크린샷 2023-07-25 115823" src="https://github.com/eunjuyummy/The_Arts_Vibrancy_Index/assets/101487529/05b4b0c2-5d8f-43a0-ae19-3c77b2c363f5">
 
 
 # 상세안내
