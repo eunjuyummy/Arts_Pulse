@@ -1,6 +1,4 @@
-# Data Gallery for The Arts Index 
->> 1차 마감 후 수정 필요
-
+# Arts Pulse: Data Gallery for The Arts Index 
 
 ---
 데이터 정보 지수를 기반으로 서울/부산에서 가장 예술 지수가 높은 N개의 커뮤니티를 식별
@@ -31,13 +29,8 @@
 
 
 ## 참고문헌
+예술지수(Arts Index) 개발 연구
 
-## FAQ
-Q. 왜 서울과 부산 지역만 이용가능한가요?
-A.
-
-Q.
-A.
 
 ## Copyright
 MIT License
